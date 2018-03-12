@@ -2,8 +2,8 @@ Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
   config.middleware.insert_before 0, Rack::Cors do
     allow do
-      origins 'http://localhost:3000'
-      resource 'notes', :headers => :any, :methods => [:get, :post, :put, :delete, :options]
+      origins 'https://jasonaloi.github.io'
+      resource '*', :headers => :any, :methods => [:get, :post, :put, :delete, :options]
     end
   end
   # Code is not reloaded between requests.

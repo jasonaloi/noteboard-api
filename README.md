@@ -1,24 +1,9 @@
-# README
+# Noteboard App (Rails API only)
+React Noteboard Sample Web App with separate Rails 5 API.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Demo
+The Rails 5 API is hosted on Heroku's free tier, and may take a minute to load.
+[https://jasonaloi.github.io/noteboard/](https://jasonaloi.github.io/noteboard/)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# API
+[https://jboard-api.herokuapp.com](https://jboard-api.herokuapp.com)
